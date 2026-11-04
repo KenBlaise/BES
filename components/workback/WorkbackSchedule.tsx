@@ -139,7 +139,7 @@ export function WorkbackSchedule() {
       .then((payload: { progress?: WorkbackProgress; persist?: "github" | "local" } | null) => {
         if (!payload?.progress) return;
         setProgress(payload.progress);
-        setPersist(payload.persist);
+        if (payload.persist) setPersist(payload.persist);
         window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload.progress));
       })
       .catch(() => {
