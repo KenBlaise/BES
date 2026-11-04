@@ -11,6 +11,7 @@ const NAV = [
   { href: "/lenses-services", label: "Lenses & Services" },
   { href: "/our-story", label: "Our Story" },
   { href: "/visit", label: "Visit Blaze" },
+  { href: "/workback", label: "Workback" },
 ];
 
 function NavLinks({

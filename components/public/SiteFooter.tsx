@@ -27,6 +27,7 @@ export function SiteFooter() {
           <Link href="/eyewear" className="inline-flex min-h-11 items-center">Eyewear</Link>
           <Link href="/find-your-blaze" className="inline-flex min-h-11 items-center">Find Your Blaze</Link>
           <Link href="/visit" className="inline-flex min-h-11 items-center">Visit Blaze</Link>
+          <Link href="/workback" className="inline-flex min-h-11 items-center">Workback</Link>
           <Link href="/my-blaze" className="inline-flex min-h-11 items-center">My Blaze</Link>
           <Link href="/staff/login" className="mt-4 inline-flex min-h-11 items-center text-cream/40">
             Staff
