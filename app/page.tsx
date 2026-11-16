@@ -140,7 +140,11 @@ export default function HomePage() {
         <div>
           <p className="text-xs tracking-[0.22em] text-stone">VISIT BLAZE</p>
           <h2 className="mt-3 font-serif text-4xl">2250 Scenic Hwy N</h2>
-          <p className="mt-1 text-lg">Snellville, GA</p>
+          <p className="mt-1 text-lg">
+            Suite F
+            <br />
+            Snellville, GA
+          </p>
           <p className="mt-4 text-stone">
             Tue–Sat 10am–6pm · Sun–Mon by appointment
             <br />

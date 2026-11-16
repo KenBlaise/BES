@@ -19,6 +19,7 @@ export function SiteFooter() {
         </div>
         <div className="text-sm leading-7 text-cream/80">
           <p>2250 Scenic Hwy N</p>
+          <p>Suite F</p>
           <p>Snellville, GA</p>
           <p className="mt-3">(470) 555-0192</p>
           <p>Hours placeholder: Tue–Sat 10–6</p>

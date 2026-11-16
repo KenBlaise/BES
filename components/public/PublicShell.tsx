@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 export function PublicShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  if (pathname.startsWith("/staff")) {
+  if (pathname.startsWith("/staff") || pathname === "/coming-soon") {
     return <>{children}</>;
   }
   return (

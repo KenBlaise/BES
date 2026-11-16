@@ -27,6 +27,8 @@ export default function VisitPage() {
           <p className="mt-4 text-lg">
             2250 Scenic Hwy N
             <br />
+            Suite F
+            <br />
             Snellville, GA
           </p>
           <p className="mt-6 text-stone">
@@ -54,10 +56,10 @@ export default function VisitPage() {
           <div className="flex aspect-[4/3] items-center justify-center bg-cream text-center text-stone">
             <div>
               <p className="text-xs tracking-[0.18em]">MAP PLACEHOLDER</p>
-              <p className="mt-2">2250 Scenic Hwy N, Snellville, GA</p>
+              <p className="mt-2">2250 Scenic Hwy N, Suite F, Snellville, GA</p>
               <a
                 className="mt-4 inline-block underline"
-                href="https://maps.google.com/?q=2250+Scenic+Hwy+N+Snellville+GA"
+                href="https://maps.google.com/?q=2250+Scenic+Hwy+N+Suite+F+Snellville+GA"
                 target="_blank"
                 rel="noreferrer"
               >

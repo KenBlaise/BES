@@ -54,11 +54,14 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-charcoal/10 bg-ivory/90 backdrop-blur-md">
       <div className="page-shell">
         <div className="flex items-center justify-between gap-4 py-3 md:py-4">
-          <Link
-            href="/"
-            className="shrink-0 text-[11px] font-semibold tracking-[0.16em] text-ink sm:text-xs sm:tracking-[0.22em]"
-          >
-            BLAZE EYEWEAR STUDIO
+          <Link href="/" className="shrink-0 py-1">
+            <img
+              src="/bes-logo.png"
+              alt="Blaze Eyewear Studio"
+              width={968}
+              height={508}
+              className="h-20 w-auto sm:h-28"
+            />
           </Link>
 
           <nav className="hidden items-center gap-5 xl:flex" aria-label="Primary">
