@@ -24,11 +24,13 @@ export default async function ComingSoonPage({
         className="h-36 w-auto sm:h-44"
       />
       <p className="mt-10 text-xs tracking-[0.28em] text-stone">COMING SOON</p>
-      <h1 className="mt-4 max-w-xl text-center font-serif text-4xl leading-tight md:text-5xl">
+      <h1 className="mt-4 max-w-xl text-center font-serif text-4xl leading-tight text-[#FB5B04] md:text-5xl">
         Ignite your style.
       </h1>
       <p className="mt-4 max-w-md text-center leading-7 text-charcoal/80">
-        Blaze Eyewear Studio is opening at 2250 Scenic Hwy N, Suite F, Snellville, GA.
+        Blaze Eyewear Studio is opening at
+        <br />
+        2250 Scenic Hwy N, Suite F, Snellville, GA.
       </p>
       <AdminGate initialError={params.error === "1"} />
     </div>
